@@ -1,0 +1,28 @@
+body {
+    background-color:black;
+    color: lightgreen;
+    font-family: Courier, sans-serif
+}
+#title {
+    background-color:darkgreen;
+    text-align: center;
+    border-radius: 100px;
+}
+
+#navbar {
+}
+
+#navbar > ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: hsla(145, 100%, 50%, 0.13);
+}
+
+#navbar > ul > li {
+    padding: 10px 40px;
+    display: inline-block;
+    font-weight: bold;
+    background-color:darkgreen;
+    border-radius: 100px;
+}
