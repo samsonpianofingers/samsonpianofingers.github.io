@@ -27,6 +27,11 @@ body {
     padding: 10px 40px;
     display: inline-block;
     font-weight: bold;
-    background-color:darkgreen;
+    background-color: darkgreen;
     border-radius: 100px;
+	transition: 0.4s;
+}
+
+#navbar > ul > li:hover {
+	background-color: green;
 }
