@@ -1,14 +1,17 @@
 a:link,
 a:active,
-a:hover,
 a:visited {
     color: lightgreen;
 }
 
+a:hover{
+    color: darkorange;
+}
 body {
     background-color: black;
     color: lightgreen;
-    font-family: Courier, sans-serif
+    font-family: Courier, sans-serif;
+
 }
 
 #title {
@@ -34,9 +37,19 @@ body {
     font-weight: bold;
     background-color: darkgreen;
     border-radius: 100px;
+    border: 1px dotted #001700;
     transition: 0.4s;
 }
 
 #navbar > ul > li:hover {
     background-color: green;
 }
+
+p, #links{
+    font-size:24px;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+    list-style: none;
+}
+
