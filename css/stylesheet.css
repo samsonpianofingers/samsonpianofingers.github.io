@@ -17,7 +17,7 @@ body {
     border-radius: 100px;
 }
 .currentPage{
-    filter: blur(2px);
+    filter: blur(1px);
 }
 #navbar {}
 
