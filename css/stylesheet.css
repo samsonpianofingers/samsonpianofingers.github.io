@@ -1,3 +1,7 @@
+a:link, a:active, a:hover, a:visited {
+    color: lightgreen;
+}
+
 body {
     background-color:black;
     color: lightgreen;
