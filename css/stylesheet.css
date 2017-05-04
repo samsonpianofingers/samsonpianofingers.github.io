@@ -1,20 +1,25 @@
-a:link, a:active, a:hover, a:visited {
+a:link,
+a:active,
+a:hover,
+a:visited {
     color: lightgreen;
 }
 
 body {
-    background-color:black;
+    background-color: black;
     color: lightgreen;
     font-family: Courier, sans-serif
 }
+
 #title {
-    background-color:darkgreen;
+    background-color: darkgreen;
     text-align: center;
     border-radius: 100px;
 }
-
-#navbar {
+.currentPage{
+    filter: blur(2px);
 }
+#navbar {}
 
 #navbar > ul {
     list-style: none;
@@ -29,9 +34,9 @@ body {
     font-weight: bold;
     background-color: darkgreen;
     border-radius: 100px;
-	transition: 0.4s;
+    transition: 0.4s;
 }
 
 #navbar > ul > li:hover {
-	background-color: green;
+    background-color: green;
 }
