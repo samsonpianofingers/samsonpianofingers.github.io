@@ -25,9 +25,7 @@ hr {
     text-align: center;
     border-radius: 100px;
 }
-.currentPage {
-    filter: blur(1px);
-}
+
 
 .project {
     padding: 20px;
@@ -41,7 +39,7 @@ hr {
     height: 10%;
 }
 
-.screenshot{
+.screenshot {
     padding-left: 80px;
 }
 
@@ -60,10 +58,14 @@ hr {
     border: 1px dotted #001700;
     transition: 0.4s;
 }
+
 #navbar > ul > li:hover {
     background-color: green;
 }
 
+.currentPage {
+    background-color: #d00f60 !important;
+}
 p,
 #about-links,
 .link {
