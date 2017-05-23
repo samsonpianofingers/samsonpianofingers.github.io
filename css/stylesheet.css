@@ -41,6 +41,9 @@ hr {
     height: 10%;
 }
 
+.screenshot{
+    padding-left: 80px;
+}
 
 #navbar {} #navbar > ul {
     list-style: none;
