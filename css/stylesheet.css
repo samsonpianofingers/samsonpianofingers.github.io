@@ -3,8 +3,7 @@ a:active,
 a:visited {
     color: lightgreen;
 }
-
-a:hover{
+a:hover {
     color: darkorange;
 }
 body {
@@ -12,24 +11,43 @@ body {
     color: lightgreen;
     font-family: Courier, sans-serif;
 }
-
+h2 {
+    font-size: 2em;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+hr {
+    border-color: green;
+}
 #title {
     background-color: darkgreen;
     text-align: center;
     border-radius: 100px;
 }
-.currentPage{
+.currentPage {
     filter: blur(1px);
 }
-#navbar {}
 
-#navbar > ul {
+.project {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(118, 100%, 21%);
+}
+.git {
+    background-color: white;
+    border-radius: 100px;
+    width: 10%;
+    height: 10%;
+}
+
+
+#navbar {} #navbar > ul {
     list-style: none;
     text-align: center;
     padding: 20px 0 20px 0;
     background-color: hsl(145, 100%, 10%);
 }
-
 #navbar > ul > li {
     padding: 10px 40px;
     display: inline-block;
@@ -39,44 +57,21 @@ body {
     border: 1px dotted #001700;
     transition: 0.4s;
 }
-
 #navbar > ul > li:hover {
     background-color: green;
 }
 
-p, #about-links, .link{
-    font-size:1.5em;
+p,
+#about-links,
+.link {
+    font-size: 1.5em;
     text-align: left;
     padding-left: 80px;
     padding-right: 80px;
 }
-
 .list {
-    font-size:1.5em;
+    font-size: 1.5em;
     text-align: left;
     padding-left: 120px;
-    padding-right: 80px;    
-}
-
-h2, h3, h4, h5, h6 {
-    font-size:2em;
-    text-align: left;
-    padding-left: 80px;
     padding-right: 80px;
-}
-.project {
-    padding: 20px;
-    border-radius: 20px;
-    background-color: hsl(118, 100%, 21%);
-}
-
-.git {
-    background-color: white;
-    border-radius: 100px;
-    width:10%;
-    height:10%;
-}
-
-hr{
-    border-color: green;
 }
