@@ -11,7 +11,6 @@ body {
     background-color: black;
     color: lightgreen;
     font-family: Courier, sans-serif;
-
 }
 
 #title {
@@ -28,7 +27,7 @@ body {
     list-style: none;
     text-align: center;
     padding: 20px 0 20px 0;
-    background-color: hsla(145, 100%, 50%, 0.13);
+    background-color: hsl(145, 100%, 10%);
 }
 
 #navbar > ul > li {
@@ -45,11 +44,39 @@ body {
     background-color: green;
 }
 
-p, #links{
-    font-size:24px;
+p, #about-links, .link{
+    font-size:1.5em;
     text-align: left;
     padding-left: 80px;
     padding-right: 80px;
-    list-style: none;
 }
 
+.list {
+    font-size:1.5em;
+    text-align: left;
+    padding-left: 120px;
+    padding-right: 80px;    
+}
+
+h2, h3, h4, h5, h6 {
+    font-size:2em;
+    text-align: left;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.project {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: hsl(118, 100%, 21%);
+}
+
+.git {
+    background-color: white;
+    border-radius: 100px;
+    width:10%;
+    height:10%;
+}
+
+hr{
+    border-color: green;
+}
